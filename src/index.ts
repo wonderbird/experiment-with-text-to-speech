@@ -1,6 +1,6 @@
 export class Greeter {
   greet() {
-    return `Hello World!`;
+    return "Hello World!";
   }
 }
 
