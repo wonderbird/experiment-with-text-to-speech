@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import OpenAI from "openai";
+import 'dotenv/config';
 
 const openai = new OpenAI();
 const speechFile = path.resolve("./speech.mp3");
@@ -16,4 +17,5 @@ async function main() {
   await fs.promises.writeFile(speechFile, buffer);
 }
 
+console.log(`Using OpenAI API key "${process.env.OPENAI_API_KEY_NAME}"`);
 main();
