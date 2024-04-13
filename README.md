@@ -21,6 +21,10 @@ OPENAI_API_KEY=Error: You need to enter your OpenAI API key in the .env file
 
 **Attention:** Do not commit your API key to the repository.
 
+### `npm start`
+
+Run the application in [index.ts](./src/index.ts).
+
 ### `npm run test:watch`
 
 Launches the test runner in the interactive watch mode.
